@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Projekt</string>
+    <string name="new_task_hint">Nowe Zadanie</string>
+    <string name="add_task">Dodaj Zadanie</string>
+    <string name="toast_task_added">Zadanie Dodane</string>
+    <string name="toast_task_removed">Zadanie Usunięte</string>
+    <string name="deadline_in_hours">Termin w Godzinach</string>
+    <string name="priority_high">Wysoki</string>
+    <string name="priority_medium">Średni</string>
+    <string name="priority_low">Niski</string>
+    <string name="expiring_soon">Wygasa...</string>
+    <string name="expired_hours_ago">Wygasło %1$d godzin temu</string>
+    <string name="expired_just_now">Właśnie wygasło</string>
+    <string name="hours_left">%1$d godzin pozostało</string>
+    <string name="view_high_priority">Wysoki priorytet</string>
+    <string name="view_medium_low_priority">Średni / niski </string>
+    <string name="view_main">Ekran główny</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="new_task_hint">New Task</string>
+    <string name="add_task">Add Task</string>
+    <string name="toast_task_added">Task Added</string>
+    <string name="toast_task_removed">Task Removed</string>
+    <string name="deadline_in_hours">Deadline in Hours</string>
+    <string name="priority_high">High</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_low">Low</string>
+    <string name="expiring_soon">Expiring...</string>
+    <string name="expired_hours_ago">Expired %1$d hours ago</string>
+    <string name="expired_just_now">Expired just now</string>
+    <string name="hours_left">%1$d hours left</string>
+    <string name="view_high_priority">View High Priority</string>
+    <string name="view_medium_low_priority">Medium / Low Priority</string>
+    <string name="view_main">View Main</string>
+
+</resources>
