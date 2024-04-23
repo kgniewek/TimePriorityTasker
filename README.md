@@ -16,3 +16,56 @@ The app consists of several screens, including:
 - High Priority Screen: Shows tasks with high priority, allowing users to delete tasks directly from this screen.
 - Medium/Low Priority Screen: Displays tasks with medium or low priority, similar to the high priority screen.
 - Task Detail Screen: Each task item shows its name, remaining time until the deadline (or if it's expired), and its priority level. Users can delete tasks by clicking the delete icon next to each task.
+
+### Project Structure
+
+- 📁 **root**
+  - `build.gradle.kts`
+  - `gradle.properties`
+  - `gradlew`
+  - `gradlew.bat`
+  - `settings.gradle.kts`
+  - 📁 **app**
+    - `build.gradle.kts`
+    - `proguard-rules.pro`
+    - 📁 **src**
+      - 📁 **androidTest**
+        - 📁 **java**
+          - 📁 **com**
+            - 📁 **example**
+              - 📁 **projekt**
+                - `ExampleInstrumentedTest.kt`
+      - 📁 **main**
+        - `AndroidManifest.xml`
+        - 📁 **java**
+          - 📁 **com**
+            - 📁 **example**
+              - 📁 **projekt**
+                - `MainActivity.kt`
+                - 📁 **ui**
+                  - 📁 **theme**
+                    - `Color.kt`
+                    - `Theme.kt`
+                    - `Type.kt`
+        - 📁 **res**
+          - 📁 **drawable**
+            - `ic_launcher_background.xml`
+            - `ic_launcher_foreground.xml`
+          - 📁 **mipmap-anydpi-v26**
+            - `ic_launcher.xml`
+            - `ic_launcher_round.xml`
+          - 📁 **values**
+            - `colors.xml`
+            - `strings.xml`
+            - `themes.xml`
+          - 📁 **values-pl**
+            - `strings.xml`
+          - 📁 **xml**
+            - `backup_rules.xml`
+            - `data_extraction_rules.xml`
+      - 📁 **test**
+        - 📁 **java**
+          - 📁 **com**
+            - 📁 **example**
+              - 📁 **projekt**
+                - `ExampleUnitTest.kt`
